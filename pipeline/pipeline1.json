@@ -33,6 +33,11 @@
 				}
 			}
 		],
+		"parameters": {
+			"hi": {
+				"type": "string"
+			}
+		},
 		"annotations": []
 	}
 }

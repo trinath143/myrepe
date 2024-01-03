@@ -9,7 +9,10 @@
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobStorageLocation"
+				"type": "AzureBlobStorageLocation",
+				"fileName": "cust_details.csv",
+				"folderPath": "Landing",
+				"container": "cont-dest"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
